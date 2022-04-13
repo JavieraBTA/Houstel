@@ -1,0 +1,19 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url('../img/background.jpg');
+    background-position: cover;
+    padding-top: 100px;
+    padding-bottom: 20px;
+
+    &-disfruta {
+        display: flex;
+    }
+
+    &-chile {
+        display: inline;
+    }
+
+}

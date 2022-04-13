@@ -1,0 +1,24 @@
+.formulario {
+
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    padding: 10px 25px; 
+    border-radius: 1%;
+    width: 85%;
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+        .boton {
+            margin-bottom: 0px;
+            text-align: center;
+            width: 100px;
+            height: 30px;
+            margin: 0 auto;
+            padding: 5px;
+        }
+
+}

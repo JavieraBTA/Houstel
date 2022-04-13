@@ -1,0 +1,45 @@
+.formulario {
+
+    ::placeholder {
+
+        color: $gray;
+        font-size: $small;
+    }
+
+
+
+    label {
+        font-family: 'Open Sans', sans-serif;
+        font-size: $small;
+        color: $granitegray;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    &-entrada {
+
+        input {
+
+            border: $granitegray 1px solid;
+            padding: 10px 15px;
+            border-radius: 1%;
+            opacity: 80%;
+        }
+    }
+
+    &-menu {
+
+        select {
+
+            border: $granitegray 1px solid;
+            padding: 10px 15px;
+            border-radius: 2%;
+            color: $gray;
+            font-size: $small;
+    
+        }
+
+
+    }
+
+}

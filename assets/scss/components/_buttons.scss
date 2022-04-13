@@ -1,0 +1,27 @@
+.boton{
+    
+    margin-bottom: 30px;
+    
+    &-small {
+        padding: 10px;
+        border-radius: 5%;
+    }
+
+    &-medium {
+        padding: 15px 25px;
+        border-radius: 5%;
+    }
+
+    &-large {
+        padding: 10px 40px;
+        border-radius: 5%;
+    }
+
+    &-default{
+        background-color: $default;
+    }
+
+    &-positive{
+        background-color: $positive;
+    }
+}

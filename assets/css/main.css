@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 130px;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  margin: 0px;
+  display: inline;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  margin: 0px;
+  font-weight: 400;
+}
+
+h6 {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.cabecera {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 70px;
+  position: fixed;
+}
+.cabecera-imagen {
+  padding: 30px 0px 0px 50px;
+}
+.cabecera img {
+  width: 100%;
+  height: 100%;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-image: url("../img/background.jpg");
+  background-position: cover;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.principal-disfruta {
+  display: flex;
+}
+.principal-chile {
+  display: inline;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px 25px;
+  border-radius: 1%;
+  width: 85%;
+}
+.formulario form {
+  display: flex;
+  flex-direction: column;
+}
+.formulario .boton {
+  margin-bottom: 0px;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.boton {
+  margin-bottom: 30px;
+}
+.boton-small {
+  padding: 10px;
+  border-radius: 5%;
+}
+.boton-medium {
+  padding: 15px 25px;
+  border-radius: 5%;
+}
+.boton-large {
+  padding: 10px 40px;
+  border-radius: 5%;
+}
+.boton-default {
+  background-color: #e94f37;
+}
+.boton-positive {
+  background-color: #44bba4;
+}
+
+.formulario ::placeholder {
+  color: #bababa;
+  font-size: 14px;
+}
+.formulario label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #5d6163;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.formulario-entrada input {
+  border: #5d6163 1px solid;
+  padding: 10px 15px;
+  border-radius: 1%;
+  opacity: 80%;
+}
+.formulario-menu select {
+  border: #5d6163 1px solid;
+  padding: 10px 15px;
+  border-radius: 2%;
+  color: #bababa;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=main.css.map */
